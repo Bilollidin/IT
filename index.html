@@ -8,11 +8,14 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" type="jpg/png"
+        href="https://banner2.cleanpng.com/20180630/ecr/kisspng-computer-icons-computer-programming-source-code-pr-5b37b18d89b940.4057222215303765895641.jpg">
     <title>Document</title>
 </head>
 
 <body>
-    <header data-aos="fade-up-right">
+    <header data-aos="fade-up-right" data-aos-easing="linear"
+    data-aos-duration="1000">
         <div class="container">
             <nav>
                 <a class="nav__title" href="#">
@@ -22,10 +25,10 @@
                     <a href="#home">
                         <li class="nav__inner">Home</li>
                     </a>
-                    <a href="#">
+                    <a href="#about">
                         <li class="nav__inner">About</li>
                     </a>
-                    <a href="#">
+                    <a href="#contact">
                         <li class="nav__inner">Cantact</li>
                     </a>
 
@@ -33,7 +36,8 @@
             </nav>
         </div>
     </header>
-    <section id="home">
+    <section data-aos="fade-left" data-aos-easing="linear"
+    data-aos-duration="1000" id="home">
         <div class="container">
             <div class="header__center">
                 <h2>Fronted Developer</h2>
@@ -56,6 +60,80 @@
             crossorigin="anonymous"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </section>
+
+    <section data-aos="fade-up" data-aos-easing="linear"
+    data-aos-duration="1000" class="hero" id="about">
+        <div class="container">
+            <div class="hero__class">
+                <div class="hero__img">
+                    <img src="img/info-2-600x812.jpg" width="300px" alt="">
+                </div>
+                <div class="hero__content">
+                    <h2>IT Web Programmer<br> - Technical Diploma</h2>
+                    <span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consequatur quidem dolores
+                            amet ipsum dicta recusandae, voluptas dolore, ducimus ut in assumenda nam, dolorum quae
+                            voluptatibus atque animi veniam vitae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, nemo quis eum quidem, saepe
+                            perferendis eius molestiae consectetur eos provident in. Porro illo molestiae, ducimus
+                            accusantium tempore dolorum aliquam quis?</p>
+                    </span>
+                    <a href="#" class="btn btn-success">Reade Me..</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-down-left" data-aos-easing="linear"
+    data-aos-duration="1000" class="cardss" id="contact">
+        <div class="container">
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/800px-HTML5_Badge.svg.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="https://www.blog.itone.uz/html-haqida-malumot-html-nima/" class="btn btn-success">Learn more..</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://files.cults3d.com/uploaders/18312161/illustration-file/1ca3882c-ab09-4fb1-950a-d2dfa2a034e0/css-logo.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="https://www.blog.itone.uz/css-nima-va-u-nimaga-kerak-css-haqida-malumot/" class="btn btn-success">Learn more..</a>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn.pixabay.com/photo/2015/04/23/17/41/javascript-736400_1280.png"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <a href="https://uzbekdevs.uz/maqolalar/javascript-haqida-tushuncha" class="btn btn-success">Learn more..</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <h2>Logo</h2>
+                <ul class="footer__item">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Abbout</a></li>
+                <li><a href="#">Cantact</a></li>
+            </ul>
+            </div>
+            <div class="footer__contact">
+                <span>
+                <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. <br>Tempore vero velit impedit.<br> Suscipit, provident molestias.</p>
+                <p>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. <br>Tempore vero velit impedit.<br> Suscipit, provident molestias.</p>
+                <p>Address: Andijon shahar<br> phone:+998505003950 , +998932733330 <br>Email: kodirovmy2009@gmail.com , ganiyevpubgm1337@gmail.com</p>
+            </span>
+            </div>
+        </div>
+    </footer>
 </body>
 <script>
     AOS.init();
